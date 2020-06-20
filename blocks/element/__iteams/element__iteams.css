@@ -1,0 +1,22 @@
+.element__iteams {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(282px, 1fr));
+  row-gap: 21px;
+  column-gap: 18px;
+  list-style: none;
+}
+
+@media screen and (max-width:1080px) {
+  .element__iteams {
+    grid-template-columns: repeat(2, minmax(282px, 1fr));
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .element__iteams {
+    grid-template-columns: minmax(282px, 1fr);
+    row-gap: 20px;
+  }
+}
