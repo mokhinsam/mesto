@@ -1,0 +1,21 @@
+.profile__info {
+  max-width: 336px;
+  margin-right: auto;
+  display: grid;
+  grid-template-areas: "title button"
+                       "subtitle .";
+  row-gap: 16px;
+  column-gap: 17px; 
+}
+
+@media screen and (max-width: 750px) {
+  .profile__info {
+    max-width: 280px;
+    margin-right: 0;
+    margin-bottom: 36px;
+    row-gap: 14px;
+    column-gap: 15px; 
+    grid-template-areas: "title button"
+                         "subtitle subtitle";
+  }
+}
