@@ -12,9 +12,9 @@
 
 **Технологии**
 
-HTML5 (Flexible Box Layout Module)
-CSS3 (CSS Grid Layout)
-Java Script 
-Файловая структура БЭМ
-Адаптивная вёрстка
+* HTML5 (Flexible Box Layout Module)
+* CSS3 (CSS Grid Layout)
+* Java Script 
+* Файловая структура БЭМ
+* Адаптивная вёрстка
 
