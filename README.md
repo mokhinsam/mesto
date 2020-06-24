@@ -1,4 +1,4 @@
-# [Место](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
+# [Место](https://mokhinsam.github.io/mesto/.)
 
 ### Обзор
 
@@ -17,4 +17,5 @@
 * Java Script 
 * Файловая структура БЭМ
 * Адаптивная вёрстка
+
 

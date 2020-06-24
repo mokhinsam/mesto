@@ -1,6 +1,7 @@
 @import url(./__logo/header__logo.css);
-@import url(./__line/header__line.css);
 
 .header {
-  margin-bottom: 40px;
+  margin-top: 45px;
+  border-bottom: 1px solid rgba(54, 54, 54, .7);
+  box-sizing: border-box;
 }

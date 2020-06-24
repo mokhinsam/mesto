@@ -1,10 +1,15 @@
 .profile__add-button {
-  padding: 14px 64px;
-  box-sizing: border-box;
   cursor: pointer;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 2px;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  background: url(../../../images/profile__add-button-cross.svg) no-repeat;
+  background-position: center;
+  min-width: 150px;
+  min-height: 50px;
 } 
 
 .profile__add-button:hover {
@@ -14,6 +19,6 @@
 
 @media screen and (max-width: 750px) {
   .profile__add-button {
-    padding: 15px 131px;
+    min-width: 282px;
   }
 }

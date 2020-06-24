@@ -1,0 +1,16 @@
+.element__group {
+  background: url(../../../images/element__group.svg) no-repeat;
+  min-width: 21px;
+  min-height: 19px;
+  background-position: center;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.element__group:hover {
+  opacity: .6;
+  transition: opacity .10s ease;
+}
