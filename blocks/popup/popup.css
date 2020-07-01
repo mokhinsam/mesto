@@ -2,7 +2,10 @@
 @import url(./__close-button/popup__close-button.css);
 @import url(./__title/popup__title.css);
 @import url(./__field/popup__field.css);
-@import url(./__save-button/popup__save-button.css);
+@import url(./__submit/popup__submit.css);
+@import url(./__edit/popup__edit.css);
+@import url(./__add/popup__add.css);
+
 
 .popup { 
   position: fixed;
