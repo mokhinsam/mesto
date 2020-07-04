@@ -5,11 +5,14 @@
 @import url(./__like/element__like.css);
 @import url(./__remove-btn/element__remove-btn.css);
 @import url(./__like-active/element__like-active.css);
+@import url(./__no-card-text/element__no-card-text.css);
 
 .element {
   background: #FFF;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  max-width: 282px;
   max-height: 361px;
+  margin: 0 auto;
 }

@@ -1,0 +1,12 @@
+@import url(./_hidden/element__no-card-text_hidden.css);
+
+.element__no-card-text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFF;
+  opacity: .8;
+  margin: auto;
+  text-align: center;
+}
+
