@@ -91,10 +91,12 @@ function addCard (item) {
   card.querySelector('.element__title').textContent = item.name;
   card.querySelector('.element__image').src = item.link;
   card.querySelector('.element__remove-btn').addEventListener('click', deleteCard);
+  card.querySelector('.element__like').addEventListener('click', likeCardToggle);
   elementListCard.prepend(card);
 }
 
 initialCards.forEach(function (item) { addCard(item)});
+
 
 
 function deleteCard (event) {
@@ -124,3 +126,11 @@ function formSubmitCard (event) {
 }
 
 formCard.addEventListener('submit', formSubmitCard);
+
+const likedCard = document.querySelector('.element__like');
+
+function likeCardToggle (event) {
+  event.target.classList.toggle('element__like-active');
+}
+
+

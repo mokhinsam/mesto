@@ -1,5 +1,5 @@
-.element__group {
-  background: url(../../../images/element__group.svg) no-repeat;
+.element__like {
+  background: url(../../../images/element__like.svg) no-repeat;
   min-width: 21px;
   min-height: 19px;
   background-position: center;
@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.element__group:hover {
+.element__like:hover {
   opacity: .6;
   transition: opacity .10s ease;
 }
