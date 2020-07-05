@@ -1,5 +1,6 @@
 .popup__picture-text {
+  color: #fff;
   font-size: 12px;
   line-height: 15px;
-  color: #FFF;
+  padding-top: 10px;
 }

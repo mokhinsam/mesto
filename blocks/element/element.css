@@ -8,6 +8,8 @@
 @import url(./__no-card-text/element__no-card-text.css);
 
 .element {
+  display: flex;
+  flex-direction: column;
   background: #FFF;
   border-radius: 10px;
   overflow: hidden;
