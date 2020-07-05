@@ -4,16 +4,30 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 588px) {
   .popup__picture-image {
     max-width: 60vh;
     max-height: 60vh;
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 450px) {
+  .popup__picture-image {
+    max-width: 50vh;
+    max-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .popup__picture-image {
     max-width: 45vh;
     max-height: 45vh;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .popup__picture-image {
+    max-width: 40vh;
+    max-height: 40vh;
   }
 }
