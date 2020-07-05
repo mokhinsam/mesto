@@ -1,5 +1,7 @@
 @import url(./_about-self/popup__field_about-self.css);
 @import url(./_name/popup__field_name.css);
+@import url(./_name-place/popup__field_name-place.css);
+@import url(./_link/popup__field_link.css);
 
 .popup__field {
   border: 0;

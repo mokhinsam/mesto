@@ -4,12 +4,16 @@
 @import url(./__field/popup__field.css);
 @import url(./__submit/popup__submit.css);
 @import url(./__edit/popup__edit.css);
+@import url(./__edit-close-btn/popup__edit-close-btn.css);
 @import url(./__add/popup__add.css);
+@import url(./__add-close-btn/popup__add-close-btn.css);
 @import url(./__picture-text/popup__picture-text.css);
 @import url(./__picture-image/popup__picture-image.css);
 @import url(./__picture/popup__picture.css);
 @import url(./__picture-content/popup__picture-content.css);
 @import url(./__picture-container/popup__picture-container.css);
+@import url(./__field/popup__field.css);
+
 
 .popup { 
   position: fixed;
@@ -26,3 +30,4 @@
   transition: visibility .3s, opacity .20s ease;
 }
 
+@import url(./_opened/popup_opened.css);
