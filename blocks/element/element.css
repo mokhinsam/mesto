@@ -5,7 +5,6 @@
 @import url(./__like/element__like.css);
 @import url(./__remove-btn/element__remove-btn.css);
 @import url(./__like-active/element__like-active.css);
-@import url(./__no-card-text/element__no-card-text.css);
 
 .element {
   display: flex;
